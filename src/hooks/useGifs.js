@@ -8,7 +8,7 @@ function useGifs({ keyword } = { keyword: null }) {
   useEffect(function () {
     setLoading(true)
     // recuperamos la keyword de localStorage
-    const keywordToUse = keyword || localStorage.getItem('lastKeyword')
+    const keywordToUse = keyword || localStorage.getItem('lastKeyword') || 'random'
 
     getGifs({ keyword: keywordToUse })
     .then(gifs => {
