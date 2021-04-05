@@ -6,6 +6,7 @@ import Detail from './pages/Detail/Detail'
 import StaticContext from './context/StaticContext'
 
 import { Link, Route } from "wouter"
+import { GifsContextProvider } from './context/GifsContext';
 
 export default function App() {
   // Todos lo que envuelve StaticContext tiene acceso a el.
@@ -21,17 +22,19 @@ export default function App() {
           <Link to="/">
             <img className="App-logo" alt='Giffy logo' src='/logo.png' />
           </Link>
-          <Route
-            component={Home}
-            path="/"
-          />
-          <Route
-            component={SearchResults}
-            path="/search/:keyword"  />
-          <Route
-            component={Detail}
-            path="/gif/:id"
-          />
+          <GifsContextProvider>
+            <Route
+              component={Home}
+              path="/"
+              />
+            <Route
+              component={SearchResults}
+              path="/search/:keyword"  />
+            <Route
+              component={Detail}
+              path="/gif/:id"
+              />
+          </GifsContextProvider>
         </section>
       </div>
     </StaticContext.Provider>
