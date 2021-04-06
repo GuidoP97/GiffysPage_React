@@ -18,8 +18,8 @@ function useGifs({ keyword } = { keyword: null }) {
       setLoading(false)
       // Guardamos la keyword en localStorage
       localStorage.setItem('lastKeyword', keyword)
-      })
-  }, [keyword])
+    })
+  }, [keyword, setGifs])
 
   return {loading, gifs}
 }

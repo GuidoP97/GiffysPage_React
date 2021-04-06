@@ -20,6 +20,11 @@ export default function Home() {
     setKeyword(event.target.value)
   }
 
+  // console.log(path, loading);
+  if(loading && path === null) {
+    console.log('milagro');
+  }
+
   return (
     <>
       <form onSubmit={handleSubmit}>
