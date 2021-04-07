@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GiffysPage_React/static/css/main.3acdcdaf.chunk.css",
+    "main.js": "/GiffysPage_React/static/js/main.0006c2c0.chunk.js",
+    "main.js.map": "/GiffysPage_React/static/js/main.0006c2c0.chunk.js.map",
+    "runtime-main.js": "/GiffysPage_React/static/js/runtime-main.b09298d3.js",
+    "runtime-main.js.map": "/GiffysPage_React/static/js/runtime-main.b09298d3.js.map",
+    "static/js/2.0868f556.chunk.js": "/GiffysPage_React/static/js/2.0868f556.chunk.js",
+    "static/js/2.0868f556.chunk.js.map": "/GiffysPage_React/static/js/2.0868f556.chunk.js.map",
+    "static/js/3.f09c2a75.chunk.js": "/GiffysPage_React/static/js/3.f09c2a75.chunk.js",
+    "static/js/3.f09c2a75.chunk.js.map": "/GiffysPage_React/static/js/3.f09c2a75.chunk.js.map",
+    "index.html": "/GiffysPage_React/index.html",
+    "static/css/main.3acdcdaf.chunk.css.map": "/GiffysPage_React/static/css/main.3acdcdaf.chunk.css.map",
+    "static/js/2.0868f556.chunk.js.LICENSE.txt": "/GiffysPage_React/static/js/2.0868f556.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b09298d3.js",
+    "static/js/2.0868f556.chunk.js",
+    "static/css/main.3acdcdaf.chunk.css",
+    "static/js/main.0006c2c0.chunk.js"
+  ]
+}
