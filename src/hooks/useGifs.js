@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react"
 import getGifs from '../services/getGifs'
 import GifsContext from '../context/GifsContext.jsx'
 
-function useGifs({ keyword } = { keyword: null }) {
+export default function useGifs({ keyword } = { keyword: null }) {
   const [loading, setLoading] = useState(false)
   // const [gifs, setGifs] = useState([])
   const {gifs, setGifs} = useContext(GifsContext)
@@ -23,5 +23,3 @@ function useGifs({ keyword } = { keyword: null }) {
 
   return {loading, gifs}
 }
-
-export default useGifs
